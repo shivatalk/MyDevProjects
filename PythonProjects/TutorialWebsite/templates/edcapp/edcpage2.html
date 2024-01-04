@@ -1,0 +1,83 @@
+{% extends "edcapp/edcbase.html" %}
+{% load static %}
+
+
+{% block title %}
+<title>EDC_Page2</title>
+{% endblock %}
+
+
+{% block body %}
+
+
+<div class="col-md-8 px-4 py-3 mx-0 mt-3 bg-light col-12 col-sm-12">
+
+    {% if text.exists %}
+    {% for temp in text %}
+    <h1>{{ temp.main_heading }}</h1><br>
+
+    <h4>{{ temp.heading1}}</h4>
+    <p>{{ temp.para1}}</p>
+
+
+    <h4>{{ temp.heading2}}</h4>
+    <p>{{ temp.para2}}</P>
+
+    <h4>{{ temp.heading3}}</h4>
+    <p>{{ temp.para3}}</p>
+    <div><img style="margin-left:5%" src="{% static 'images/registerset.jpg'%}" height="auto" width="90%"></div>
+
+    <h4>{{ temp.heading4}}</h4>
+    <p>{{ temp.para4}}</p>
+    <div><img style="margin-left:5%" src="{% static 'images/registerset.jpg'%}" height="auto" width="90%"></div>
+    <hr>
+
+
+    <h4>{{ temp.heading5}}</h4>
+    <p>{{ temp.para5}}</p>
+
+
+    <h4>{{ temp.heading6}}</h4>
+    <p>{{ temp.para6}}</p>
+    <ul>
+        <li>PN Photodiode</li>
+        <li>Avalanche Photodiode</li>
+        <li>Schottky Photo Diode</li>
+        <li>PIN Photodiode</li>
+    </ul>
+
+    <h4>{{ temp.heading7}}</h4>
+    <p>{{ temp.para7}}</p>
+
+    <h4>{{ temp.heading8}}</h4>
+    <p>{{ temp.para8}}</p>
+
+
+    <h4>{{ temp.heading9}}</h4>
+    <p>{{ temp.para9}}</p>
+
+
+    <h4>{{ temp.heading10}}</h4>
+    <p>{{ temp.para10}}</p>
+
+    <h4>{{ temp.heading11}}</h4>
+    <p>{{ temp.para11}}</p>
+
+    <h4>{{ temp.heading12}}</h4>
+    <p>{{ temp.para12}}</p>
+
+    <h4>{{ temp.heading13}}</h4>
+    <p>{{ temp.para13}}</p>
+
+    <h4>{{ temp.heading14}}</h4>
+    <p>{{ temp.para14}}</p>
+
+    <h4>{{ temp.heading14}}</h4>
+    <p>{{ temp.para14}}</p>
+    {%endfor %}
+    {% else %}
+    <h1>Invalid request Please enter valid id </h1>
+    {% endif %}
+</div>
+
+{% endblock %}

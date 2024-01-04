@@ -1,0 +1,45 @@
+{% extends 'labour/basepage.html' %}
+
+{% load staticfiles %}
+
+{% block tittle%}
+<title>Agriculture List</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="container-fluid listing">
+<br>
+    <table class="table table-hover table-striped ">
+    <thead>
+      <tr class="p-2">
+        <th>Aadhar Number</th><th>RFID Tag</th>
+        <th>Full Name</th><th>Father's Name</th>
+        <th>District</th><th>Tahseel</th>
+         <th>Janpad Panchayat</th><th>Pin Code</th>
+          <th>Village</th>
+          <th>Gram-Panchayat
+
+          <th>Contact</th><th>Contact</th>
+          <th>Experience(in Year)</th>
+
+
+
+      </tr>
+    </thead>
+    <tbody>
+     {% for i in dict.main %}
+      <tr>
+          {% for j in i %}
+            <td>{{j}}</td>
+          {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</div>
+
+
+
+{% endblock %}

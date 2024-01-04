@@ -1,0 +1,9 @@
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.csprojAssemblyReference.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.AssemblyInfoInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.AssemblyInfo.cs
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.csproj.CoreCompileInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\bin\Debug\netstandard2.0\ExceptionsDll.deps.json
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\bin\Debug\netstandard2.0\ExceptionsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\bin\Debug\netstandard2.0\ExceptionsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ExceptionsDll\obj\Debug\netstandard2.0\ExceptionsDll.pdb

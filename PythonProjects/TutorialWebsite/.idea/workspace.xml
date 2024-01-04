@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="934ab38e-14d7-477d-b912-24bd68b58ccb" name="Default" comment="many change">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controlapp/control_page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controlapp/control_page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/controlapp/controlbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controlapp/controlbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/covidapp/basecovid.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/covidapp/basecovid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/covidapp/stateDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/covidapp/stateDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edcapp/edcbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edcapp/edcbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edcapp/edcpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edcapp/edcpage1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/edcapp/edcpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/edcapp/edcpage2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/about_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/about_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/contact_us.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/contact_us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/introbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/introbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/micro_page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/micro_page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/micro_page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/micro_page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/microbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/microbase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/microapp/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/microapp/services.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bcomputerbase.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/bcomputerapp/bcomputerbase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microapp/forms.py" />
+        <option value="$PROJECT_DIR$/microapp/models.py" />
+        <option value="$PROJECT_DIR$/microapp/admin.py" />
+        <option value="$PROJECT_DIR$/templates/microapp/invalid_micro.html" />
+        <option value="$PROJECT_DIR$/static/css/testing.css" />
+        <option value="$PROJECT_DIR$/templates/controlapp/base.html" />
+        <option value="$PROJECT_DIR$/bcomputerapp/urls.py" />
+        <option value="$PROJECT_DIR$/bcomputerapp/views.py" />
+        <option value="$PROJECT_DIR$/microapp/views.py" />
+        <option value="$PROJECT_DIR$/controlapp/views.py" />
+        <option value="$PROJECT_DIR$/controlapp/urls.py" />
+        <option value="$PROJECT_DIR$/shivatalk/settings.py" />
+        <option value="$PROJECT_DIR$/shivatalk/urls.py" />
+        <option value="$PROJECT_DIR$/covidapp/urls.py" />
+        <option value="$PROJECT_DIR$/covidapp/views.py" />
+        <option value="$PROJECT_DIR$/microapp/urls.py" />
+        <option value="$PROJECT_DIR$/templates/covidapp/stateDetail.html" />
+        <option value="$PROJECT_DIR$/templates/covidapp/basecovid.html" />
+        <option value="$PROJECT_DIR$/templates/edcapp/edcbase.html" />
+        <option value="$PROJECT_DIR$/templates/edcapp/edcpage1.html" />
+        <option value="$PROJECT_DIR$/templates/edcapp/edcpage2.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/services.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/microbase.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/micro_page2.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/micro_page1.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/introbase.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/index.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/contact_us.html" />
+        <option value="$PROJECT_DIR$/templates/microapp/about_us.html" />
+        <option value="$PROJECT_DIR$/templates/controlapp/controlbase.html" />
+        <option value="$PROJECT_DIR$/templates/controlapp/control_page1.html" />
+        <option value="$PROJECT_DIR$/templates/bcomputerapp/bcomputerbase.html" />
+        <option value="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage1.html" />
+        <option value="$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage2.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="211" />
+    <option name="y" value="4" />
+    <option name="width" value="1128" />
+    <option name="height" value="731" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="shivatalk_covid" type="cbb8eebc:String" user="shivatalk_covid" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shivatalk_covid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shivatalk_covid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shivatalk_covid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shivatalk_covid" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shivatalk_covid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shivatalk_covid" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="covidapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.26632124" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Shailja\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934ab38e-14d7-477d-b912-24bd68b58ccb" name="Default" comment="" />
+      <created>1546679529361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546679529361</updated>
+    </task>
+    <task id="LOCAL-00001" summary="2nd change">
+      <created>1548294580018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548294580018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2nd change">
+      <created>1548351007536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548351007536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="3nd change">
+      <created>1551193484005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551193484005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="211" y="4" width="1128" height="731" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24311927" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.23927392" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32838285" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49925596" visible="true" weight="0.3895447" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd change" />
+    <MESSAGE value="3nd change" />
+    <option name="LAST_COMMIT_MESSAGE" value="3nd change" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microapp/migrations/0005_feedback_feed.py" />
+    <entry file="file://$PROJECT_DIR$/microapp/migrations/0004_mama.py" />
+    <entry file="file://$PROJECT_DIR$/microapp/migrations/0002_auto_20190113_1532.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/css1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/contentw.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/control1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/dc1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/digital1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/digital2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/edc1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/electronic1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/testing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcomputerapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcomputerapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcomputerapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bcomputerapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edcapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlapp/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edcapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="25" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivatalk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-985">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shivatalk/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covidapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covidapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/covidapp/stateDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/covidapp/basecovid.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edcapp/edcpage2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edcapp/edcpage1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edcapp/edcbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/microbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/micro_page3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/micro_page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/about_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/contact_us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/introbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <element signature="e#4408#4414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/invalid_micro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/microapp/micro_page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/controlapp/controlbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/controlapp/control_page1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bcomputerapp/bcomputerpage1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bcomputerapp/bcomputerbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

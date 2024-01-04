@@ -1,0 +1,39 @@
+{% extends "microapp/introbase.html" %}
+{% load static %}
+
+
+{% block tittle%}
+<title>State Data</title>
+{% endblock %}
+
+{% block css %}
+<style>
+.card{
+width:95vw;
+height:auto;
+background-color:#b3ffb3;
+margin-top:10px;
+margin-left:2vw;
+padding:20px;
+text-align:center;
+box-sizing:border-box;
+}
+h2{
+padding:10px;}
+
+</style>
+
+{% endblock %}
+
+{% block body%}
+<div class="card">
+    <h1> CoronaVirus Complete Detail of :<span style="color:gray"> {{stateData.name}}</span></h1><br>
+
+    <h2> Total Confirmed : {{ stateData.confirmed}}</h2>
+    <p style="font-weight:bold"> ( Active + Recovered + Death )</p>
+    <h2 style="color:#0055ff">Currently Active : {{ stateData.active}}</h2>
+    <h2 style="color:green"> Recovered : {{ stateData.recovered}}</h2>
+    <h2 style="color:red"> Death : {{ stateData.deaths}}</h2>
+</div>
+
+{% endblock%}

@@ -1,0 +1,89 @@
+﻿@model CustomerModuleProject.Models.Customer
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<br />
+
+<script type="text/javascript" src="~/Scripts/Validation.js"></script>
+
+
+<h2 class="text-center">Form to Add Employees</h2>
+<hr style="height:3px;color:red">
+
+@using (Html.BeginForm("AddNew", "Customer", FormMethod.Post, new { onsubmit = "return FormValidation()" }))
+{
+
+<form >
+    <div class="form-group">
+        <label for="customername">Employee Name : <b style="color:red;font-size:large">*</b></label>
+        <input type="text" class="form-control" oninvalid="ValidateName()" onkeyup="ValidateName()" onfocus="ValidateName()" id="employeename" name="employeename" placeholder="Enter Employee Name">
+        <small id="employeenamerequired" class="text-danger"></small>
+    </div>
+    <div class="form-group">
+        <label for="sel1">Select Designation : <b style="color:red;font-size:large">*</b></label>
+        <small id="sel1required" class="text-danger">Designation is Required</small><br/>
+
+        <select class="form-control btn btn-primary text-center" onchange="ValidateDesignation()" id="sel1" name="designation">
+            <option value="" disabled selected >Select Designation</option>
+            <option value="Trainee">Trainee</option>
+            <option value="Associate Software Develpoer">Associate Software Develpoer</option>
+            <option value="Senior Software Develpoer"> Senior Software Develpoer</option>
+            <option value="Manager">Manager</option>
+            <option value="Senior Manager">Senior Manager</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="dateofbirth">Date of Birth : <b style="color:red;font-size:large">*</b></label>
+        <input type="date" class="form-control" id="dateofbirth" oninput="ValidateDateOfBirth()" onfocus="ValidateDateOfBirth()" name="dateofbirth" placeholder="">
+        <small id="dateofbirthrequired" class="text-danger"></small>
+
+    </div>
+
+    <div class="form-group">
+        <label for="mobileno">Mobile Number : <b style="color:red;font-size:large">*</b></label>
+        <input type="number" class="form-control" id="mobileno" onkeyup="ValidateMobileNumber()" onfocus="ValidateMobileNumber()" name="mobileno" placeholder="Enter 10 Digit Mobile Number">
+        <small id="mobilenorequired" class="text-danger"></small>
+    </div>
+
+    <div class="form-group">
+        <label>Gender  :<b style="color:red;font-size:large">*</b></label>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" value="Male" checked="checked" name="gender">Male
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" value="Female" name="gender">Female
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="dateofjoining">Date Of Joining :<b style="color:red;font-size:large">*</b></label>
+        <input type="date" class="form-control" oninput="ValidateDateofJoining()" onfocus="ValidateDateofJoining()" id="dateofjoining" name="dateofjoining" placeholder="Enter Joining Date ">
+        <small id="dateofjoiningrequired" class="text-danger"></small>
+    </div>
+
+    <div class="form-group">
+        <label for="location">Location :<b style="color:red;font-size:large">*</b></label>
+        <input type="text" class="form-control" onkeyup="ValidateLocation()" onfocus="ValidateLocation()" id="location" name="location" placeholder="Enter Location">
+        <small id="locationrequired" class="text-danger"></small>
+    </div>
+
+
+    <div class="form-group">
+        <label for="comment">Address:<b style="color:red;font-size:large">*</b></label> 
+        <small id="addressrequired" class="text-danger"></small>
+        <textarea class="form-control" rows="5" onkeyup="ValidateAddress()" onfocus="ValidateAddress()" id="address" name="address"></textarea>
+
+    </div>
+    <div class="alert alert-danger" id="invalidpopup" style="display:none"> </div>
+    <div class="alert alert-success" id="successpopup" style="display:none">Record Inserted Successfully </div>
+
+    <button type="submit" id="submitbtn" class="btn btn-primary">Submit</button>
+   
+</form>
+
+}

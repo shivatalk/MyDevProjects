@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PTOScrapedDBModelStoreContainer" CdmEntityContainer="PTOScrapedDBEntities">
+    <EntitySetMapping Name="UKChallangedDecisions">
+      <EntityTypeMapping TypeName="PTOScrapedDBModel.UKChallangedDecision">
+        <MappingFragment StoreEntitySet="UKChallangedDecisions">
+          <ScalarProperty Name="BLNumber" ColumnName="BLNumber" />
+          <ScalarProperty Name="ConcerningRightsIn" ColumnName="ConcerningRightsIn" />
+          <ScalarProperty Name="HearingOfficer" ColumnName="HearingOfficer" />
+          <ScalarProperty Name="DecisionDate" ColumnName="DecisionDate" />
+          <ScalarProperty Name="PersonOrCompanyInvolved" ColumnName="PersonOrCompanyInvolved" />
+          <ScalarProperty Name="ProvisionsDiscussion" ColumnName="ProvisionsDiscussion" />
+          <ScalarProperty Name="HearingType" ColumnName="HearingType" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="RelatedDecisions" ColumnName="RelatedDecisions" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PdfLink" ColumnName="PdfLink" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

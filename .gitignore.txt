@@ -1,0 +1,25 @@
+
+# Ignore node_modules folder
+node_modules
+
+
+# Ignore files related to API keys
+.env
+
+
+# Ignore dll files
+*.dll
+
+# Ignore dll files
+*.pyc
+
+
+# Ignore SASS config files
+.sass-cache
+
+
+__pycache__/
+.vs/
+bin/
+.idea/
+

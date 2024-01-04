@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalChatActivity">
+
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/crlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liftOnScroll="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                android:background="@color/colorPrimaryDark">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/backArrow"
+                    android:layout_width="40dp"
+                    android:layout_height="?attr/actionBarSize"
+                    app:icon="@drawable/ic_arrow_back_24"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    app:iconGravity="textStart"
+                    app:rippleColor="@color/colorPrimaryDark"
+                    android:paddingRight="10dp"
+                    style="Widget.App.Button.FilledButton.Filled"
+                    />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profile_picture"
+                    android:layout_width="51dp"
+                    android:layout_height="52dp"
+                    android:src="@drawable/shiva"
+                    android:scaleType="fitXY"
+                    android:backgroundTint="@color/white"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.roundImage"
+                    android:background="@color/colorAccent"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white"
+                    style="@style/setting_title"
+                    />
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBarChat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/personal_chat_menu"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                />
+            </LinearLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/chat_edit_shape"
+            >
+
+            <EditText
+                android:id="@+id/chat_msg"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:hint=" Type a message  "
+                android:textColor="@color/nblack"
+                android:textColorHint="@color/lightgray"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:background="@android:color/transparent"
+                android:drawableTint="@color/black"
+                android:drawableLeft="@drawable/ic_smile_24"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/attach_icon"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                app:rippleColor="@color/lightgray"
+                app:icon="@drawable/ic_attach_24"
+                app:iconTint="@color/nblack"
+                android:padding="7dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rounded_back"
+                app:backgroundTint="@android:color/transparent"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/chat_camara"
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                app:rippleColor="@color/lightgray"
+                app:icon="@drawable/ic_camera_24"
+                app:iconTint="@color/nblack"
+                android:padding="7dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rounded_back"
+                app:backgroundTint="@android:color/transparent"
+                />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/voice_record"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:rippleColor="@color/lightgray"
+            app:icon="@drawable/ic_mic_24"
+            app:iconTint="@color/white"
+            android:padding="8dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/rounded_back"
+            app:backgroundTint="@color/colorPrimaryDark"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/send"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:rippleColor="@color/lightgray"
+            app:icon="@drawable/ic_send_24"
+            app:iconTint="@color/white"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded_back"
+            app:backgroundTint="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

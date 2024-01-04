@@ -1,0 +1,187 @@
+{% extends 'microapp/introbase.html' %}
+{% load static %}
+
+{% block tittle%}
+<title>About Us</title>
+{% endblock %}
+
+{% block body%}                                        <!-- Start title image -->
+<div class="container-fluid mt-0 p-0">
+    <div class=" container-fluid titleimg text-center m-0 pb-5 pt-5">
+        <h1 class="text-white pt-4">Welcome to Shivatalk</h1>
+        <p class="text-white text-center pt-4">Our duty is to encourage every one in his struggle to
+            live up to his own highest idea, and strive at the same time to make the
+            ideal as near as possible to the Truth</p>
+        <a class="btn btn-outline-light mt-3  font-weight-bold">Get Started</a>
+        <a class="btn btn-outline-light mt-3  font-weight-bold">log In</a>
+
+    </div>
+</div>                                     <!-- End tittle image -->
+
+
+<!-- Start Body of text -->
+
+<div class="container-fluid m-0 p-0">
+    <div class="row m-0 p-0">
+        <div class="col-md-9 bg-white m-0 p-3   ">
+            <h4 class="text-center">Shivatalk.pythonanywhere.com</h4><br>
+            <h5>Welcome to Shivatalk<br><br>Shivatalk is one of the best source for all subjects study of Electronics
+                and
+                communication Engineering as well as Computer science and Electrical Engineering theory study.<br>
+                We're dedicated to giving you the very best of knowledge of all the subjects with very deep knowledge,
+                with a focus on three characteristicsie: deep knowledge,full Support and uniqueness.<br><br>
+                Founded in 2019 by Shivam Singh Rajpoot,
+                Shivatalk.com has come a long way from its beginnings in a jabalpur Madhya Pradesh (India)
+                When Shivam Singh first started out, his passion for helping other people,
+                providing the best solution for Study drove him to this action i.e.
+                to launch a website that can help the student for learning , and gave him the impetus to turn
+                hard work and inspiration into to a booming online store. <br><br>
+                We hope you enjoy our products as much as we enjoy offering them to you.
+                If you have any questions or comments, please don't hesitate to contact us.<br><br><br><br>
+
+                Sincerely<br><br>
+                Shivam Singh <br>
+                Founder:Shivatalk.com
+            </h5>
+        </div>
+        <div class="col-md-3 p-3 m-0 bg-white  ">
+            <h3 class="display-4"></h3>
+        </div>
+    </div>
+</div>               <!-- End Body of Text-->
+
+
+<!-- Start Team Discription -->
+
+
+<div class="container-fluid ">
+    <hr class="w-50">
+    <div class="text-center">
+        <h1 class="display-1 font-weight-bold">Our Team</h1>
+    </div>
+    <hr class="w-50">
+</div>
+
+<div class="container-fluid ">
+
+    <div class="row">
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid rounded-circle" src="{% static 'images/shiva.jpg' %}" alt="profile picture">
+                    <h3 class="card-tittle"> Shivam Singh</h3>
+                    <p class="card-text">B.E ,Electronics and communication Engineering</p>
+                    <a class="card-link btn btn-danger" data-toggle="collapse" data-target="#shivaprofile">See
+                        Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid rounded-circle" src="{% static 'images/testimonials-2.jpg' %}"
+                         alt="profile picture">
+                    <h3 class="card-tittle"> Siddhant Rajpoot</h3>
+                    <p class="card-text">B.E ,Computer Science Engineering</p>
+                    <a class="card-link btn btn-danger" data-toggle="collapse" data-target="#siddprofile">See
+                        Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid rounded-circle" src="{% static 'images/shubham.jpg' %}" alt="profile picture">
+                    <h3 class="card-tittle"> Shubham Viswkarma</h3>
+                    <p class="card-text">B.E</p>
+                    <p>Computer Science Engineering </p>
+                    <p class="lead font-weight-bold"> Working at TCS </p>
+                    <a class="card-link btn btn-danger" data-toggle="collapse" data-target="#shubhamprofile">See
+                        Profile</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid rounded-circle" src="{% static 'images/testimonials-1.jpg' %}"
+                         alt="profile picture">
+                    <h3 class="card-tittle"> Shailja Rajpoot</h3>
+                    <p class="card-text">Bsc (CS), Master of Computer Application (MCA) </p>
+                    <a class="card-link btn btn-danger" data-toggle="collapse" data-target="#shailjaprofile">See
+                        Profile</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- End Team Discription -->
+
+
+<!-- Start Team Resume Profile -->
+
+<div class="container-fluid mt-3">
+
+    <div class=" card collapse p-4 " id="shivaprofile">
+        <h3 class="text-center"> Shivam Singh</h3>
+        <h4 class="text-center"><a href="https://www.youtube.com/channel/UC6_bRHbRO50RfbN6iCV6VRw" target="blank"><i
+                class="fa fa-youtube text-dark "></i> You Tube</a></h4>
+        <p class="lead font-weight-bold">W3Schools is optimized for learning, testing, and training. Examples might be
+            simplified to improve reading
+            and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors,
+            but we cannot warrant full correctness of all content. While using this site, you agree to have read and
+            accepted our terms of use, cookie and privacy policy. Copyright 1999-2019 by Refsnes Data. All Rights
+            Reserved.</p>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+
+    <div class=" card collapse p-4 " id="siddprofile">
+        <h3 class="text-center"> Siddhant Singh Rajpoot</h3>
+        <p class="lead font-weight-bold">W3Schools is optimized for learning, testing, and training. Examples might be
+            simplified to improve reading
+            and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors,
+            but we cannot warrant full correctness of all content. While using this site, you agree to have read and
+            accepted our terms of use, cookie and privacy policy. Copyright 1999-2019 by Refsnes Data. All Rights
+            Reserved.</p>
+    </div>
+</div>
+
+<div class="container-fluid mt-3">
+
+    <div class=" card collapse p-4 " id="shubhamprofile">
+        <h3 class="text-center"> Shubham Viswkarma</h3>
+        <p class="lead font-weight-bold">W3Schools is optimized for learning, testing, and training. Examples might be
+            simplified to improve reading
+            and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors,
+            but we cannot warrant full correctness of all content. While using this site, you agree to have read and
+            accepted our terms of use, cookie and privacy policy. Copyright 1999-2019 by Refsnes Data. All Rights
+            Reserved.</p>
+    </div>
+</div>
+
+<div class="container-fluid mt-3 ">
+
+    <div class=" card collapse p-4 " id="shailjaprofile">
+        <h3 class="text-center"> Shailja singh</h3>
+        <p class="lead font-weight-bold">W3Schools is optimized for learning, testing, and training. Examples might be
+            simplified to improve reading
+            and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors,
+            but we cannot warrant full correctness of all content. While using this site, you agree to have read and
+            accepted our terms of use, cookie and privacy policy. Copyright 1999-2019 by Refsnes Data. All Rights
+            Reserved.</p>
+    </div>
+</div>
+
+
+<!-- End Team Resume Profile -->
+{% endblock %}
+								
+								

@@ -1,0 +1,88 @@
+﻿
+@using PagedList;
+@using PagedList.Mvc;
+
+@model IPagedList<CustomerModuleProject.Models.Employee>
+@{
+    ViewBag.Title = "EmployeeList";
+}
+
+
+<h2>EmployeeList</h2>
+
+<a href="Customer/Add" class="btn btn-primary">Add New Employee</a>
+
+<br />
+<br />
+<div>
+
+    @using (Html.BeginForm("Index", "Customer", FormMethod.Get))
+    {
+
+        <form>
+
+            <select class="form-control btn btn-info text-center float-right"  id="sortBy" name="sortBy">
+                <option value="" disabled selected>Sort By</option>
+                <option value="EmployeeId">Employee Id</option>
+                <option value="Name">Name</option>
+                <option value="DateOfBirth">Date Of Birth</option>
+                <option value="DateofJoining">Date Of Joining</option>
+
+            </select>
+        
+
+            <button type="submit" class="btn btn-warning"> Search</button>
+          
+        </form>
+
+
+    }
+
+</div>
+<div id="msg" class="alert alert-danger" style="display:none">
+    Record Deleted Successfully
+</div>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">Name </th>
+            <th scope="col">Date Of Birth </th>
+            <th scope="col">Gender</th>
+            <th scope="col">Mobile No</th>
+            <th scope="col">Date Of Joining </th>
+            <th scope="col">Designation</th>
+            <th scope="col">Location</th>
+            <th scope="col">Address</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+
+            string dateofbirth = Convert.ToDateTime(@item.DateOfBirth).ToString("yyyy-MM-dd");
+            string dateofjoining = Convert.ToDateTime(@item.DateOfJoining).ToString("yyyy-MM-dd");
+
+
+            <tr>
+                <th scope="row">@item.EmployeeId</th>
+                <td>@item.Name</td>
+                <td>@dateofbirth</td>
+                <td>@item.Gender</td>
+                <td>@item.MobileNo</td>
+                <td>@dateofjoining</td>
+                <td>@item.Designation</td>
+                <td>@item.Location</td>
+                <td>@item.Address</td>
+                <td>@Html.ActionLink("Edit", "Edit/" + item.EmployeeId, "Customer")</td>
+                <td>@Html.ActionLink("Delete", "Delete/" + item.EmployeeId, "Customer", new { onclick = "Message()" })</td>
+
+            </tr>
+            }
+
+    </tbody>
+</table>
+
+@Html.PagedListPager(Model,pageNumber=>Url.Action("Index",new { pageNumber, sortBy =Request.QueryString["sortBy"] }))

@@ -1,0 +1,9 @@
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\bin\Debug\netstandard2.0\CustomerEntity.deps.json
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\bin\Debug\netstandard2.0\CustomerEntity.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\bin\Debug\netstandard2.0\CustomerEntity.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.csprojAssemblyReference.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.AssemblyInfoInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.AssemblyInfo.cs
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.csproj.CoreCompileInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CustomerEntity\obj\Debug\netstandard2.0\CustomerEntity.pdb

@@ -1,0 +1,137 @@
+
+
+
+
+ALTER PROCEDURE [dbo].[AddnewEmployee]
+				  @Name varchar(50) ,
+				  @DateOfBirth date ,
+				  @Gender varchar(10) ,
+			      @Address text ,
+				  @MobileNo bigint ,
+				  @DateOfJoining date ,
+				  @Designation varchar(50) ,
+				  @Location varchar(50) ,
+				  @result int output
+AS
+BEGIN
+INSERT INTO Employees_Details VALUES(@Name ,@DateOfBirth ,@Gender ,@Address ,@MobileNo ,@DateOfJoining ,@Designation ,@Location )
+UPDATE Employees_Details set @result=1
+END
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ALTER PROCEDURE [dbo].[DeleteEmployee]
+	@EmployeeId int,
+	@result int output
+
+AS
+BEGIN
+if exists(select * from Employees_Details where EmployeeId=@EmployeeId)
+	BEGIN
+
+	DELETE FROM Employees_Details  WHERE EmployeeId =@EmployeeId 
+	Update Employees_Details set @result=1
+	end
+	
+ELSE
+				BEGIN
+
+				SET @result=0
+				END
+
+END
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+ALTER PROCEDURE  [dbo].[searchByemployeeid]
+                  @EmployeeId int
+				 
+	AS
+	BEGIN
+		select * from Employees_Details where EmployeeId=@EmployeeId
+	END
+----------------------------------------------------------------------------------------------------------------------------------
+
+ALTER PROCEDURE [dbo].[SELECTALLEMPLOYEE]
+AS
+BEGIN
+SELECT * FROM Employees_Details
+END
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+ALTER PROCEDURE  [dbo].[UpdateByemployeeid]
+                  @EmployeeId int,
+				  @Name varchar(50) ,
+				  @DateOfBirth date ,
+				  @Gender varchar(10) ,
+			      @Address text ,
+				  @MobileNo bigint ,
+				  @DateOfJoining date ,
+				  @Designation varchar(50) ,
+				  @Location varchar(50) ,
+				  @result int output
+
+	AS
+	BEGIN
+		if exists(select * from Employees_Details where EmployeeId=@EmployeeId)
+		BEGIN
+			UPDATE Employees_Details SET     
+				Name=@Name,
+				DateOfBirth=@DateOfBirth,
+				Gender=@Gender,
+				Address=@Address,
+				MobileNo=@MobileNo,
+				DateOfJoining=@DateOfJoining,
+				Designation=@Designation,
+				Location=@Location,
+				@result=1
+
+				FROM Employees_Details where EmployeeId=@EmployeeId
+				END
+
+				ELSE
+				BEGIN
+
+				SET @result=0
+				END
+
+
+	END
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+ALTER procedure [dbo].[orderByDateofbirth]
+As
+Begin
+select * from Employees_Details order by DateOfBirth
+End
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ALTER procedure [dbo].[orderByDateofjoining]
+As
+Begin
+select * from Employees_Details order by DateofJoining
+End
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ALTER procedure [dbo].[orderByempeeid]
+As
+Begin
+select * from Employees_Details order by EmployeeId desc
+End
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+ALTER procedure [dbo].[orderByName]
+
+As
+Begin
+select * from Employees_Details order by Name
+End
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsOfAccount">
+
+
+    <LinearLayout
+        android:id="@+id/faq"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_help_outline_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="FAQ"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_us"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_invite_account_24"
+            style="@style/setting_image"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+           >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="Contact us"
+                style="@style/setting_title"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Questions ? Need help?"
+                style="@style/TextAppearance.MaterialComponents.Body2"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/terms_privacy_policy"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_insert_drive_file_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Terms and Privacy Policy"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/app_info"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_info_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="App info"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

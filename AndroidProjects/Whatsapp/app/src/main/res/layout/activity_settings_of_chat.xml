@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsOfChat">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            />
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/theme_section_id"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            style="@style/layout_design"
+            android:padding="0dp">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/theme_icon"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/ic_brightness_medium_24"
+                style="@style/setting_image"
+                />
+
+            <LinearLayout
+                android:id="@+id/theme_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/theme_icon">
+
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Theme"
+                    style="@style/setting_title"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Light"
+                    style="@style/TextAppearance.MaterialComponents.Body2"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/wallpaper_layout"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_wallpaper_24"
+                style="@style/setting_image"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="Wallpaper"
+                android:layout_marginLeft="20dp"
+                style="@style/setting_title"
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat Settings"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ender_is_send"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Enter is send"
+                    style="@style/setting_title"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter key will send yout message"
+                    style="@style/TextAppearance.MaterialComponents.Body2"
+                    />
+
+            </LinearLayout>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/send_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/media_visibility"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Media visibility"
+                    style="@style/setting_title"
+                    />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show newly downloaded media in\n your phone's gallry"
+                    style="@style/TextAppearance.MaterialComponents.Body2"
+                    />
+
+            </LinearLayout>
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/media_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/font_size"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="Font Size"
+                style="@style/setting_title"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/font_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                style="@style/TextAppearance.MaterialComponents.Body2"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/app_language"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="App Language"
+                style="@style/setting_title"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/app_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone's language(English)"
+                style="@style/TextAppearance.MaterialComponents.Body2"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chat_backup"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_cloud_upload_24"
+                style="@style/setting_image"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="Chat backup"
+                android:layout_marginLeft="20dp"
+                style="@style/setting_title"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chat_history"
+            style="@style/layout_design"
+            android:padding="0dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_marginTop="1dp"
+                android:src="@drawable/ic_history_24"
+                style="@style/setting_image"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:text="Chat History"
+                android:layout_marginLeft="20dp"
+                style="@style/setting_title"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+      </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

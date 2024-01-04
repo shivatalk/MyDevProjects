@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    {% block title %}
+
+    {% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/testing.css' %}">
+    <meta charset="utf-8">
+    <meta name="description" content="Shivatalk is an educational website for electronic engineering( ECE )students."/>
+
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title"
+          content="Shivatalk -Shivatalk  is an educational website on electronic projects for ECE and EEE students."/>
+    <meta property="og:description"
+          content="Shivatalk is an educational website on electronic subjects for ECE and EEE students."/>
+    <meta property="og:url" content="https://www.shivatalk.com/"/>
+    <meta property="og:site_name" content="Shivatalk - Electronic Subjects for Engineering Students"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description"
+          content="Shivatalk is an educational website on electronic subjects for ECE and EEE students."/>
+    <meta name="twitter:title"
+          content="Shivatalk - Electronic Projects for Engineering Students - Shivatalk is an educational website on electronic subjects for ECE and EEE students."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <style>
+        .navcolor{color:white;text-align:center;}
+
+	    .navcolor:hover{color:lightgrey;}
+
+        .titleimg{  background-image:url("{% static 'images/bg-masterhead.jpg' %}");width:100%;z-index:1;height:80%;background-position:center;
+                            background-repeat: no-repeat;background-size: cover;
+                                                                                    }
+		.headimg
+			{	background-image:url("{%static 'images/study.jpg' %}");
+					width:100%;
+					height:60%;
+					background-position:center;
+					background-repeat: no-repeat;
+					background-size: cover;
+
+			}
+		.bgcol{background-color:#ccffdd; color:black;}
+
+        .social{font-size:2rem;color:white;}
+        .social:hover{color:grey;}
+        .contact{font-size:2rem;color:black;}
+        .drop{text-decoration:none;height:300px;overflow:scroll;display:visible;}
+	    .listbtn{display:hidden;}
+	    .itemlist{display:none;}
+
+	@media screen and (max-width:780px)
+	{
+
+	body
+	{
+		width:100%;height:100%;
+	}
+	.itemlist
+	{
+		display:block;
+	}
+
+	.sidelist
+	{	display:none;
+		height:0px;
+		width:0px;
+	}
+
+	.listbtn
+	{
+		display:visible;
+		position:fixed;
+		top:37%;
+		left:77%;
+		z-index:1;
+	}
+
+	}
+
+    </style>
+</head>
+<body>
+
+<div class="jumbotron p-4 bg-dark text-white rounded-0 m-0 d-none d-sm-none d-md-block ">
+    <div class="container text-center ">
+        <h1 class="font-weight-bold">ShivaTalk.Com</h1>
+        <p class="font-weight-bold">We Can Rise By Lift Others</p>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm  bgcol navbar-light m-0">
+    <a class="navbar-brand " href="/"><b>ShivaTalk</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colnavbar"><span
+            class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="colnavbar">
+        <ul class="navbar-nav list">
+            <li class="nav-item"><a class="nav-link text-dark ml-3" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark ml-3" href="/services"> Services</a></li>
+            <li class="nav-item"><a class="nav-link text-dark ml-3" href="/contact"> Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link text-dark ml-3" href="/about_us"> About Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid headimg mb-0 pb-0">
+    <div class="font-weight-bold w-100 text-center">
+        <marquee scrollamount="12"><h1 class="display-3 pt-5 font-weight-bold text-light"> Welcome To ShivaTalk </h1>
+        </marquee>
+        <p class="lead text-white "> We must welcome the future, remembering that soon it will be the
+            past;and we must respect the past,remembering that
+            it was once all that was humanly possible. </p>
+    </div>
+</div>
+
+<div class="dropdown itemlist ">
+    <button type="button" class="btn btn-danger dropdown-toggle listbtn" data-toggle="dropdown">
+        MENU
+    </button>
+    <div class="dropdown-menu dropdown-menu-left drop m-0 p-0">
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../1">item 1</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../2">item 2</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../3">item 3</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../4">item 4</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../5">item 5</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../6">item 6</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../7">item 7</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../8">item 8</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../9">item 9</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../10">item 10</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../11">item 11</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../12">item 12</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../13">item 13</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../14">item 14</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../15">item 15</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../16">item 16</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../17">item 17</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../18">item 18</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../19">item 19</a></div>
+        <div class="card m-0"><a class="dropdown-item text-primary" href="../20">item 20</a></div>
+
+
+    </div>
+</div>
+
+
+<div class="container-fluid row m-0 p-0">
+
+    <div class="col-md-2 col-4 col-sm-4 mx-0 mt-3 p-0 text-center pr-2 pl-1 collapse navbar-collapse d-xs-none d-sm-none d-md-block"
+         id="sidebar">
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../1">item 1</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../2">item 2</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../3">item 3</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../4">item 4</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../5">item 5</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../6">item 6</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../7">item 7</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../8">item 8</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../9">item 9</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../10">item 10</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../11">item 11</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../12">item 12</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../13">item 13</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../14">item 14</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../15">item 15</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../16">item 16</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../17">item 17</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../18">item 18</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../19">item 19</a></div>
+        <div class="card m-0 py-2"><a class="dropdown-item text-primary" href="../20">item 20</a></div>
+    </div>
+
+
+    {% block body %}
+    {% endblock %}
+
+
+</div>
+
+
+<footer class="m-0 pt-2 pb-0">
+
+    <div class=" container-fluid bg-dark text-white col-12 text-center m-0 pt-5">
+        <div class="row m-0 p-0">
+            <div class="col-md-4">
+                <h3>About Us</h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2">Objective</li>
+                    <li class="pb-2"> Our Team</li>
+                    <li class="pb-2"> Term Of Use</li>
+                    <li class="pb-2"> Career</li>
+                    <li class="pb-2"> Videos</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 ">
+                <h3>Courses </h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2"> Computer Science Engg.</li>
+                    <li class="pb-2"> Electronics & communication Engg.</li>
+                    <li class="pb-2"> Electrical Engineering</li>
+                    <li class="pb-2"> Mechanical Engineering</li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-4">
+                <h3>Contact </h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2"> Address : Jabalpur [ M.P ] India</li>
+                    <li class="pb-2"> Email : rajpoot1999shivam@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center p-0 m-0">
+            <hr>
+            <a class="social ml-2" href="#"><i class="fa fa-facebook  p-2 "></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-twitter p-2"></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-instagram  p-2"></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-google-plus-square p-2"></i></a>
+        </div>
+
+        <div class="text-center pb-3 m-0">
+            <p>&copy; 2019. All Right Reserved </p>
+            <p class=" p-0 m-0"><a class="nav-link text-white mb-0" href="#">www.shivatalk.pythonanywhere.com</a></p>
+
+        </div>
+    </div>
+
+</footer>        <!-- End Footer -->
+</body>
+</html>

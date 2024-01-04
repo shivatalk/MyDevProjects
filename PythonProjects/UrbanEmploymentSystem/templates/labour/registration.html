@@ -1,0 +1,151 @@
+{% extends "labour/basepage.html" %}
+{% load staticfiles %}
+
+
+{% block title %}
+<title>Registration</title>
+{% endblock %}
+
+
+{% block body %}
+
+
+<div class="container-fluid bg-dark ">
+  <br>
+  <h1 class="text-center text-light">Registration</h1>
+  <br>
+  <div class="bg-light card container p-4 ">
+  <form name='myform' action="fillform/" method="POST" >
+
+    <div class="form-group form-inline">
+      <label for="aadhar_num" class="pr-4 p-1">Addhar Number : <span style="color:red;font-size:25px">**</span></label>
+      <input type="number" class="form-control formation" placeholder="Enter Your Aadhar Card Number " id="aadhar_num" name="aadhar_num">
+    </div>
+
+    <div class="form-group form-inline ">
+      <label for="rfid_num" class="pr-4 p-1">RFID TAG Number : <span style="color:red;font-size:25px">**</span></label>
+      <input type="number" class="form-control formation" placeholder="Enter Your RFID Tag Number " id="rfid_num" name="rfid_num">
+    </div>
+
+
+
+    <div class="form-group form-inline w-100">
+      <label for="fullname" class="pr-4 p-1">FullName:<span style="color:red;font-size:25px">**</span></label>
+      <input type="text" class="form-control formation" placeholder="Enter Your Fullname" id="fullname" name="fullname">
+    </div>
+
+    <div class="form-group form-inline ">
+      <label for="f_name" class="pr-4 p-1">Father's Name:<span style="color:red;font-size:25px">**</span></label>
+      <input type="text" class="form-control formation" placeholder="Enter Your Fathers's name" id="f_name" name="f_name">
+    </div>
+
+    <div class="form-group form-inline ">
+      <label for="f_contact" class="pr-4 p-1">Mobile Number :<span style="color:red;font-size:25px">**</span></label>
+      <input type="number" class="form-control formation" placeholder="Enter Your Mobile Number " id="f_contact" name="f_contact">
+    </div>
+
+    <div class="form-group form-inline ">
+      <label for="s_contact" class="pr-4 p-1">Alternative Mobile Number :</label>
+      <input type="number" class="form-control formation" placeholder="Enter Your Mobile Number " id="s_contact" name="s_contact">
+    </div>
+
+
+    <div class="form-inline">
+      <p class="p-2">Select Work:<span style="color:red;font-size:25px">**</span></p>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input " name="checks[]" value="Labour">Labour
+      </label>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input" name="checks[]" value="Carpenter">Carpenter
+      </label>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input" name="checks[]" value="Plumber">Plumber
+      </label>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input" name="checks[]" value="Electrician">Electrician
+      </label>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input" name="checks[]" value="Constructor">Constructor
+      </label>
+      <label class="form-check-label p-4">
+        <input type="checkbox" class="form-check-input" name="checks[]" value="Agriculture Worker">Agriculture Worker
+      </label>
+    </div>
+
+    <div class="form-group form-inline ">
+      <label for="pincode" class="pr-4 p-1">Area Pin Code : <span style="color:red;font-size:25px">**</span></label>
+      <input type="number" class="form-control formation" placeholder="Enter Your Area Pin Code " id="pincode" name="pincode">
+      </div>
+    <div class="form-group form-inline">
+      <label for="dist" class="pr-3">Select District :<span style="color:red;font-size:25px">**</span></label>
+      <select class="form-control" id="dist" name="dist">
+        <option value="Jabalpur" class="p-2" selected="selected">Jabalpur</option>
+        <option value="Narsingpur" class="p-2">Narsingpur</option>
+        <option value="Damoh" class="p-2" >Damoh</option>
+        <option value="Katni" class="p-2">Katni</option>
+        <option value="Sioni" class="p-2">Sioni</option>
+        <option value="Hosangabad" class="p-2">Hosangabad</option>
+      </select>
+
+
+
+      <label for="gram_panchayt" class="pr-3 pl-3">Select Gram-Panchayat :<span style="color:red;font-size:25px">**</span></label>
+      <select class="form-control" id="gram_panchayt" name="gram_panchayt">
+        <option value="Ramkhiriya" class="p-2" selected="selected">Ramkhiriya</option>
+        <option value="Ganj" class="p-2">Ganj</option>
+        <option value="Natwara" class="p-2" >Natwara</option>
+        <option value="Mahangwawa" class="p-2">Mahangwawa</option>
+        <option value="Tedhchoki" class="p-2">Tedhchoki</option>
+        <option value="JhansiGhat" class="p-2">JhansiGhat</option>
+      </select>
+
+    </div><br>
+    <div class="form-group form-inline">
+      <label for="village" class="pr-3 pl-3">Select Village :<span style="color:red;font-size:25px">**</span></label>
+      <select class="form-control" id="village" name="village">
+        <option value="Ramkhiriya" class="p-2" selected="selected">Ramkhiriya</option>
+        <option value="Ganj" class="p-2">Ganj</option>
+        <option value="Natwara" class="p-2" >Natwara</option>
+        <option value="Mahangwawa" class="p-2">Mahangwawa</option>
+        <option value="Tedhchoki" class="p-2">Tedhchoki</option>
+        <option value="JhansiGhat" class="p-2">JhansiGhat</option>
+      </select>
+
+      <label for="tehseel" class="pr-3 pl-3">Select Tehsheel :<span style="color:red;font-size:25px">**</span></label>
+      <select class="form-control" id="tehseel" name="tehseel">
+        <option value="Ramkhiriya" class="p-2" selected="selected">Shahpura</option>
+        <option value="Ganj" class="p-2">Patan</option>
+        <option value="Natwara" class="p-2" >Chargawa</option>
+        <option value="Mahangwawa" class="p-2">Parmat</option>
+        <option value="Tedhchoki" class="p-2">Tedhchoki</option>
+        <option value="JhansiGhat" class="p-2">JhansiGhat</option>
+      </select>
+    </div><br>
+    <div class="form-group form-inline">
+      <label for="janpad" class="pr-3 pl-3">Select Janpad Panchayat :<span style="color:red;font-size:25px">**</span></label>
+      <select class="form-control" id="janpad" name="janpad">
+        <option value="Ramkhiriya" class="p-2" selected="selected">Shahpura</option>
+        <option value="Ganj" class="p-2">Patan</option>
+        <option value="Natwara" class="p-2" >Chargawa</option>
+        <option value="Mahangwawa" class="p-2">Parmat</option>
+        <option value="Tedhchoki" class="p-2">Tedhchoki</option>
+        <option value="JhansiGhat" class="p-2">JhansiGhat</option>
+      </select>
+    </div>
+      <div class="form-group form-inline ">
+      <label for="experience" class="pr-4 p-1">Work Experience(In Year) : <span style="color:red;font-size:25px">**</span></label>
+      <input type="number" class="form-control formation" placeholder="Enter Your Experience  " id="experience" name="experience">
+    </div>
+
+
+    <div>
+    <button type="submit"  class="btn btn-primary">Submit</button>
+      </div>
+  </form>
+
+  </div>
+  <br>
+</div>
+
+
+{% endblock %}

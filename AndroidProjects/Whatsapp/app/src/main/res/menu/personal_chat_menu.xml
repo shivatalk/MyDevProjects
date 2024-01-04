@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/video_call" android:title="Video Call" android:icon="@drawable/ic_videocam_24" app:showAsAction="always"></item>
+    <item android:id="@+id/voice_call" android:title="Voice Call" android:icon="@drawable/ic_voice_call_24" app:showAsAction="always"></item>
+    <item android:id="@+id/view_contacts" android:title="View contact"/>
+    <item android:id="@+id/media_links" android:title="Medial,links,and docs"/>
+    <item android:id="@+id/personal_search" android:title="Search"/>
+    <item android:id="@+id/mute_notifications" android:title="Mute notifications"/>
+    <item android:id="@+id/wallpaper" android:title="Wallpaper"/>
+    <item android:id="@+id/more" android:title="More">
+        <menu>
+            <item android:id="@+id/report" android:title="Report"/>
+            <item android:id="@+id/block" android:title="Block"/>
+            <item android:id="@+id/clear_chat" android:title="Clear chat"/>
+            <item android:id="@+id/export_chat" android:title="Export chat"/>
+            <item android:id="@+id/add_shortcut" android:title="Add shortcut"/>
+        </menu>
+
+    </item>
+</menu>

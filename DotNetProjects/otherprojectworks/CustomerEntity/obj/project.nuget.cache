@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AfZx8lj9fef7v27j5zq5qqLeVWqewWy1n+doGclNaqNp1I26rUT9TE5UqBQsvvBSJ6Bqahq3n4tN9OTjpeDtew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shailja\\Desktop\\Dotnet_Training\\CustomerProject\\CustomerEntity\\CustomerEntity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shailja\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Shailja\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

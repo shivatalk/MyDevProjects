@@ -1,0 +1,152 @@
+{% extends "labour/basepage.html" %}
+{% load staticfiles %}
+
+
+{% block title %}
+<title>Home</title>
+{% endblock %}
+
+
+{% block body %}
+
+
+										<!-- Start Carousel Sliding -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+	<li data-target="#demo" data-slide-to="4"></li>
+	<li data-target="#demo" data-slide-to="5"></li>
+  </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'img/village1.jpg'%}" alt="Village" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Village Workers</h3>
+        <p>We have Worker who Can Work for Agriculture related Work .</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/village.jpg'%}" alt="Village" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Village Workers</h3>
+        <p>We have Worker who Can Work for Agriculture related Work .</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/plumber1.jpg'%}" alt="Plumber" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Plumbers</h3>
+        <p>We have Plumbers who Can Work for Water and Pipeline related Work .</p>
+      </div>   
+    </div>
+	<div class="carousel-item">
+      <img src="{% static 'img/carpenter1.jpg'%}" alt="Carepenter" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Carpenter</h3>
+        <p>We have Carpenters who Can work for wood related Work .</p>
+      </div>   
+    </div>
+	<div class="carousel-item">
+      <img src="{% static 'img/electrician1.jpg'%}" alt="Electrician" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Electricians</h3>
+        <p>We have Electricians who Can Work for Electricity related Work of indoor and outdoor.</p>
+      </div>   
+    </div>
+	<div class="carousel-item">
+      <img src="{% static 'img/constructor.jpg'%}" alt="Constructors" width="100%" height="500">
+      <div class="carousel-caption">
+        <h3>Constructors</h3>
+        <p>We have Constructors who Can Work for Construction related Work of indoor and outdoor.</p>
+      </div>   
+    </div>
+	
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  
+														<!-- End Carousel Sliding -->
+</div>
+
+
+
+
+<div class="container-fluid mt-2 mb-2 p-0 row" style="margin-left:0px;">
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card">
+            <img class="card-img-top img-fluid" src="{% static 'img/labor.jpg'%} " alt="Card image labour">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Labours</h3>
+                <p class="card-text">Here You Will Found A complete List Of Labours.</p>
+                <a href="labour/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card ">
+            <img class="card-img-top img-fluid " src="{% static 'img/carp.jpg'%}" alt="Card image carpenter">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Carpenters</h3>
+                <p class="card-text">Here You Will Found A complete List Of Carpenters.</p>
+                <a href="carpenter/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card ">
+            <img class="card-img-top img-fluid " src="{% static 'img/plumber.jpg'%}" alt="Card image Plumbers">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Plumbers</h3>
+                <p class="card-text">Here You Will Found A complete List Of Plumbers.</p>
+                <a href="plumber/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card ">
+            <img class="card-img-top img-fluid " src="{% static 'img/elects.jpg'%}" alt="Card image Electricians">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Electricians</h3>
+                <p class="card-text">Here You Will Found A complete List Of Electricians.</p>
+                <a href="electrician/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card ">
+            <img class="card-img-top img-fluid " src="{% static 'img/construct.jpg'%}" alt="Card image Constructors">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Constructors</h3>
+                <p class="card-text">Here You Will Found A complete List Of Constuctors.</p>
+                <a href="constructor/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4 col-md-4 col-6 mt-2">
+        <div class="card ">
+            <img class="card-img-top img-fluid " src="{% static 'img/agric.jpg'%}" alt="Card image Agriculture Workers">
+            <div class="card-body p-2">
+                <h3 class="card-title">Search For Agriculture Workers </h3>
+                <p class="card-text">Here You Will Found A complete List Of Agriculture Workers.</p>
+                <a href="agriculture/" class="btn btn-primary">Click Here</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+{{ form.errors }} {{ form.non_field_errors }}
+
+{% endblock %}

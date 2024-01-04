@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript" src="~/Scripts/Validation.js"></script>
+<script type="text/javascript">
+
+   
+    
+
+</script>
+
+<br />
+<br />
+<br />
+<h1 class="text-center">Welcome To Employee Portal </h1>
+
+<hr/>
+
+<h3>Search Employee By Employee Id</h3>
+
+@using (Html.BeginForm("Search", "Home", FormMethod.Post))
+{
+
+    <form >
+        <div class="form-group">
+            <label for="employeeid">Employee Id :</label>
+            <input type="number" class="form-control" value="" onfocus="Validate()" onkeyup="Validate()" id="employeeid" aria-describedby="employeeid" name="employeeid" placeholder="Enter Employee Id">
+            <small id="idrequired" class="text-danger"></small>  
+        </div>
+        <button type="submit" class="btn btn-primary" id="searchbtn" disabled>Search</button>
+        <p id="hbtn"></p>
+    </form>
+
+}

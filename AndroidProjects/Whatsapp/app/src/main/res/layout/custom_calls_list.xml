@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:id="@+id/full_area"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/last_dp_call"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/shiva"
+        android:scaleType="fitXY"
+        android:backgroundTint="@color/white"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.roundImage"
+        android:background="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:id="@+id/msg_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="15dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_toRightOf="@+id/last_dp_call">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/name_of_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="NameOfPerson"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/incoming_icon"
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:src="@drawable/ic_call_received_24"
+                style="@style/setting_image"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/outgoing_icon"
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_call_made_24"
+                style="@style/setting_image"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/date_time"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2), 16 september ,6:45 pm "
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/video_inc_call"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_videocam_24"
+            style="@style/setting_image"
+            />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/voice_inc_call"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentEnd="true"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_voice_call_24"
+        style="@style/setting_image"
+        />
+    </RelativeLayout>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/full_area"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+</RelativeLayout>

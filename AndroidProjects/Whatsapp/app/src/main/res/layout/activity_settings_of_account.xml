@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsOfAccount">
+
+
+    <LinearLayout
+        android:id="@+id/privacy"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_lock_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Privacy"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/security"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_security_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Security"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/two_step_verification"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_more_horiz_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Two-step verification"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/change_number"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_primary_phone_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Change number"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/request_account"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_insert_drive_file_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Request account info"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/delete_acc"
+        style="@style/layout_design"
+        android:padding="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_delete_24"
+            style="@style/setting_image"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:text="Delete my account"
+            android:layout_marginLeft="20dp"
+            style="@style/setting_title"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

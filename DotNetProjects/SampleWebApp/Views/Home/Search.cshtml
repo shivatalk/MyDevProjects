@@ -1,0 +1,65 @@
+﻿@model CustomerModuleProject.Models.Employee
+@{
+    ViewBag.Title = "Search";
+}
+
+
+<script type="text/javascript" src="~/Scripts/Validation.js"></script>
+
+<div id="msg" class="alert alert-danger" style="display:none">
+    Record Deleted Successfully
+</div>
+
+@if (Model.EmployeeId == -1)
+{
+
+    <div class="jumbotron text-center"><h5>No Record Found........</h5></div>
+  
+}
+else
+{
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">Name </th>
+            <th scope="col">Date Of Birth </th>
+            <th scope="col">Gender</th>
+            <th scope="col">Mobile No</th>
+            <th scope="col">Date Of Joining </th>
+            <th scope="col">Designation</th>
+            <th scope="col">Location</th>
+            <th scope="col">Address</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+       
+        @{ 
+            string dateofbirth = Convert.ToDateTime(@Model.DateOfBirth).ToString("yyyy-MM-dd");
+            string dateofjoining = Convert.ToDateTime(@Model.DateOfJoining).ToString("yyyy-MM-dd");
+
+        }
+            <tr>
+                <th scope="row">@Model.EmployeeId</th>
+                <td>@Model.Name</td>
+                <td>@dateofbirth</td>
+                <td>@Model.Gender</td>
+                <td>@Model.MobileNo</td>
+                <td>@dateofjoining</td>
+                <td>@Model.Designation</td>
+                <td>@Model.Location</td>
+                <td>@Model.Address</td>
+                <td>@Html.ActionLink("Edit", "Edit/" + Model.EmployeeId, "Customer")</td>
+                <td>@Html.ActionLink("Delete", "../Customer/Delete/" + Model.EmployeeId, "Customer", new {onclick = "Message()" })</td>
+
+            </tr>
+        
+
+    </tbody>
+</table>
+
+}
+

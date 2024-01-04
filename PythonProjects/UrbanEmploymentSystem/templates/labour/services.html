@@ -1,0 +1,93 @@
+{% extends "labour/basepage.html" %}
+{% load staticfiles %}
+
+
+{% block title %}
+<title>Services</title>
+{% endblock %}
+
+
+{% block body %}
+
+
+
+<div class="container-fluid p-5">
+    <hr class="w-50">
+    <h1 class="display-3 font-weight-bold text-center"> Our Services</h1>
+    <hr class="w-50">
+
+</div>
+
+<div class="container-fluid ">
+
+    <div class="row">
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/laborsvg.png'%}" alt="Bootsrap Image">
+                    <h3 class="card-tittle">Labour</h3>
+                    <p class="card-text">We provide Labours for your Work and Need </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/carpent.png'%} " alt="Bootsrap Image"><br><br><br>
+                    <h3 class="card-tittle">Carpenter</h3>
+                    <p class="card-text">We provide Carpenter for your Work and Need </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/plumb.png'%}" alt="Bootsrap Image">
+                    <h3 class="card-tittle">Plumber</h3>
+                    <p class="card-text">We provide Plumbers for your Work and Need </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/electris.png'%}" alt="Bootsrap Image">
+                    <h3 class="card-tittle">Electricians</h3>
+                    <p class="card-text">We provide Electricians for your Work and Need </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/constsvg.png'%}" alt="Bootsrap Image">
+                    <h3 class="card-tittle">Constructors</h3>
+                    <p class="card-text">We provide Constructors for your construction work </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-4 col-12 ">
+            <div class="card col-md-11 mt-2">
+                <div class="card-body text-center">
+                    <img class="img-fluid " src="{% static 'img/agrisvg.png'%}" alt="Bootsrap Image"><br><br><br>
+                    <h3 class="card-tittle">Agriculture</h3>
+                    <p class="card-text">We provide workers for your Agriculture related work </p>
+                </div>
+            </div>
+        </div>
+
+       
+
+
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,16 @@
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\CrudOpearations.deps.json
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\CrudOpearations.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\CrudOpearations.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\CustomerEntity.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\ExceptionsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\ValidationsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\CustomerEntity.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\ExceptionsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\bin\Debug\netstandard2.0\ValidationsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.csprojAssemblyReference.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.AssemblyInfoInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.AssemblyInfo.cs
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.csproj.CoreCompileInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.csproj.CopyComplete
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\CrudOpearations\obj\Debug\netstandard2.0\CrudOpearations.pdb

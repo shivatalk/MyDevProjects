@@ -1,0 +1,12 @@
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\bin\Debug\netstandard2.0\ValidationsDll.deps.json
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\bin\Debug\netstandard2.0\ValidationsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\bin\Debug\netstandard2.0\ValidationsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\bin\Debug\netstandard2.0\ExceptionsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\bin\Debug\netstandard2.0\ExceptionsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.csprojAssemblyReference.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.AssemblyInfoInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.AssemblyInfo.cs
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.csproj.CoreCompileInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.csproj.CopyComplete
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\ValidationsDll\obj\Debug\netstandard2.0\ValidationsDll.pdb

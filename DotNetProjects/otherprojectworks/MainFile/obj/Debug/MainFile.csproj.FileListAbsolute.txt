@@ -1,0 +1,16 @@
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\MainFile.exe.config
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\MainFile.exe
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\MainFile.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\CrudOpearations.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\CustomerEntity.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\ExceptionsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\ValidationsDll.dll
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\CrudOpearations.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\CustomerEntity.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\ExceptionsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\bin\Debug\ValidationsDll.pdb
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\obj\Debug\MainFile.csprojAssemblyReference.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\obj\Debug\MainFile.csproj.CoreCompileInputs.cache
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\obj\Debug\MainFile.csproj.CopyComplete
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\obj\Debug\MainFile.exe
+C:\Users\Shailja\Desktop\Dotnet_Training\CustomerProject\MainFile\obj\Debug\MainFile.pdb

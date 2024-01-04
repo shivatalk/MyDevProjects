@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BVZFAGTMLECogbfXq78s2RbxNX+ZZbgz4TOcNFWK1+oFR+diQcUM7nQvOkXj+LCZ/tsqvaw/2aXtHhgkID+k0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shailja\\Desktop\\Dotnet_Training\\CustomerProject\\ValidationsDll\\ValidationsDll.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shailja\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Shailja\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

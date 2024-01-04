@@ -1,0 +1,67 @@
+*{magin:0px;padding:0px}
+.list{color:black ;font-size:18px; font-weight:bold;}
+.bgcol{background-color:#4dff88; color:black;}
+
+.headimg
+{	background-image:url("{%static 'images/mstudy.jpg' %}");
+	width:100%;
+	height:60%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.sidelist
+{
+	text-decoration:none;
+	height:800px;
+	overflow:scroll;
+	display:visible;
+}
+.drop
+{
+	text-decoration:none;
+	height:200px;
+	overflow:scroll;
+	display:visible;
+}
+
+.listbtn
+{
+	display:hidden;
+}
+
+.itemlist
+{
+	display:none;
+}
+
+@media screen and (max-width:572px)
+{
+
+body
+{
+	width:100vw;
+	height:100vh;
+}
+.itemlist
+{
+	display:block;	
+}
+.sidelist
+{	display:none; 
+	height:0px;
+	width:0px;
+}
+
+.listbtn
+{
+	display:visible;
+	position:fixed;
+	top:37%;
+	left:77%;
+	z-index:1;
+}
+
+}

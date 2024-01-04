@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html> {% load static %}
+
+<head>
+    {% block tittle %}{% endblock %}
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+
+	.navcolor{color:white;text-align:center;}
+
+	.navcolor:hover{color:lightgrey;}
+
+.titleimg{  background-image:url("{% static 'images/bg-masthead.jpg' %}");width:100%;z-index:1;height:80%;background-position:center;
+					background-repeat: no-repeat;background-size: cover;
+																			}
+
+.social{font-size:2rem;color:white;}
+.social:hover{color:grey;}
+.contact{font-size:2rem;color:black;}
+
+
+    </style>
+    {% block css %}{% endblock%}
+</head>
+<body>
+
+<div class="container-fluid m-0 p-0 sticky-top">
+    <!-- Start Navigation Menu -->
+    <nav class="navbar navcolor bg-dark navbar-expand-sm">
+
+        <!-- Brand Name -->
+        <a class="navbar-brand " href="/"><h1 class="text-light">Shivatalk</h1></a>
+
+        <!-- Small toggler button-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menubar">
+            <span><i class="fa fa-navicon text-white p-2 border border-white rounded"></i></span>
+        </button>
+        <!-- Start Navigation Menu -->
+        <div class="collapse navbar-collapse " id="menubar">
+            <ul class="navbar-nav ml-4 navcolor">
+                <li class="nav-item ml-4"><a class="nav-link navcolor font-weight-bold" href="/">Home</a></li>
+                <li class="nav-item ml-4"><a class="nav-link navcolor font-weight-bold" href="/about_us">About Us</a>
+                </li>
+                <li class="nav-item ml-4"><a class="nav-link navcolor font-weight-bold" href="/contact">Contact Us</a>
+                </li>
+                <li class="nav-item ml-4"><a class="nav-link navcolor font-weight-bold" href="/services">Services</a>
+                </li>
+                <li class="nav-item ml-4"><a class="nav-link navcolor font-weight-bold" href="/covid19">Covid-19 Tracking</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+{% block body %}{% endblock %}
+
+
+<!-- Start Footer-->
+
+<footer class="m-0 pt-2 pb-0">
+
+    <div class=" container-fluid bg-dark text-white col-12 text-center m-0 pt-5">
+        <div class="row m-0 p-0">
+            <div class="col-md-4">
+                <h3>About Us</h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2">Objective</li>
+                    <li class="pb-2"> Our Team</li>
+                    <li class="pb-2"> Term Of Use</li>
+                    <li class="pb-2"> Career</li>
+                    <li class="pb-2"> Videos</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 ">
+                <h3>Courses </h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2"> Computer Science Engg.</li>
+                    <li class="pb-2"> Electronics & communication Engg.</li>
+                    <li class="pb-2"> Electrical Engineering</li>
+                    <li class="pb-2"> Mechanical Engineering</li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-4">
+                <h3>Contact </h3>
+                <ul class="list-unstyled">
+                    <li class="pb-2"> Address : Jabalpur [ M.P ] India</li>
+                    <li class="pb-2"> Email : rajpoot1999shivam@gmail.com</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center p-0 m-0">
+            <hr>
+            <a class="social ml-2" href="#"><i class="fa fa-facebook  p-2 "></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-twitter p-2"></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-instagram  p-2"></i></a>
+            <a class="social ml-2" href="#"><i class="fa fa-google-plus-square p-2"></i></a>
+        </div>
+
+        <div class="text-center pb-3 m-0">
+            <p>&copy; 2020. All Right Reserved </p>
+            <p class=" p-0 m-0"><a class="nav-link text-white mb-0" href="#">www.shivatalk.pythonanywhere.com</a></p>
+
+        </div>
+    </div>
+
+</footer>        <!-- End Footer -->
+</body>
+</html>

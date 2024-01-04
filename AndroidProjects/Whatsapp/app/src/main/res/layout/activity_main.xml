@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/crlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liftOnScroll="true">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/topAppBar"
+                android:layout_width="match_parent"
+                android:paddingTop="7dp"
+                app:layout_scrollFlags="scroll|enterAlways|snap"
+                android:layout_height="wrap_content"
+                app:title="@string/app_name"
+                app:menu="@menu/overflow_main"
+                android:background="@color/colorPrimaryDark"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camarabtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.App.Button.FilledButton.Filled"
+            app:icon="@drawable/ic_camera_24"
+            app:iconGravity="end"
+            app:strokeWidth="0dp"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:tabTextColor="@color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="1dp"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:tabIconTint="@color/white"
+        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="fixed">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/chats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chats"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/status"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/calls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calls"
+            />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_edit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="21dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="descc"
+                app:fabSize="mini"
+                app:rippleColor="@color/colorPrimary"
+                app:backgroundTint="@color/white"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_edit_24"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_chat_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="descc"
+                app:rippleColor="@color/colorPrimaryDark"
+                app:backgroundTint="@color/colorAccent"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_baseline_chat_24"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_camara_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="descc"
+                app:rippleColor="@color/colorPrimaryDark"
+                app:backgroundTint="@color/colorAccent"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/ic_camera_24"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_calls_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="descc"
+                app:rippleColor="@color/colorPrimaryDark"
+                app:backgroundTint="@color/colorAccent"
+                android:tint="@color/white"
+                app:srcCompat="@drawable/add_ic_call_24"/>
+
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+  </RelativeLayout>
